@@ -21,7 +21,7 @@ jobs:
       continue-on-error: true
       uses: ConorMacBride/install-package@v1.1.0
       with:
-        brew: llvm qt5 openssl
+        brew: llvm qt5 
               
     - name: Create build directory
       run:  mkdir ${{ env.SOURCE_DIR }}/build
